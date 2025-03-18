@@ -1,3 +1,107 @@
+/* 알바 */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_arbeit {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.main_arbeit_img {
+  width: 655px;
+  height: 750px;
+}
+
+.m_arbeit_start {
+  color: #ff6f0f;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.m_arbeit_title {
+  font-size: 40px;
+  line-height: 55px;
+  margin: 10px 0px;
+}
+
+.m_arbeit_comment {
+  color: #7c7c7c;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.m_arbeit_buttons {
+  margin-top: 30px;
+}
+
+.m_arbeit_button {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #e9ecef;
+  border-radius: 6px;
+  padding: 12px;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* 동네업체 */
+
+.main_business {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.main_business_img {
+  width: 655px;
+  height: 750px;
+}
+
+.m_business_start {
+  color: #ff6f0f;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.m_business_title {
+  font-size: 40px;
+  line-height: 55px;
+  margin: 10px 0px;
+}
+
+.m_business_comment {
+  color: #7c7c7c;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.m_business_buttons {
+  margin-top: 30px;
+}
+
+.m_business_button {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #e9ecef;
+  border-radius: 6px;
+  padding: 12px;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
 /*footer*/
 
 .footer_1 {
