@@ -1,0 +1,48 @@
+/*footer*/
+
+.footer_1 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_menus {
+  display: flex;
+}
+/*
+.footer_menus_row {
+}
+
+.footer_download {
+}
+
+.footer_download_text {
+}
+
+.footer_download_buttons {
+  display: flex;
+}
+*/
+.footer_download_button {
+  display: flex;
+  background-color: darkgray;
+  border-radius: 5%;
+  align-items: center;
+}
+
+.footer_download_icon {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.footer_2 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer_2_1 {
+  display: flex;
+  justify-content: space-between;
+}
