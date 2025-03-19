@@ -1,0 +1,146 @@
+/* Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 3px solid black; */
+}
+
+@font-face {
+  font-family: "Gilroy-Bold", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-display: swap;
+  src: url(https://d1unjqcospf8gs.cloudfront.net/assets/Gilroy-Bold-76f01426d347c0a032cb7669f76f457dfe153f125b58f0ab76a71693796c6918.woff);
+}
+
+/* Header Styles */
+#main-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+}
+
+#header-navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 80px;
+}
+
+#logo-image {
+  height: 35px;
+}
+
+.nav-link {
+  color: #4D5159;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+#header-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  margin-left: 60px;
+}
+
+#header-actions input {
+  width: 300px;
+  height: 35px;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 0;
+  border-radius: 5px;
+  background-color: #F2F3F6;
+}
+
+#header-actions a {
+  padding: 8px 10px;
+  margin-right: 18px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #000000;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+  background-color: #fffae0;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 600px;
+}
+
+#hero-title {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+#hero-subtitle {
+  padding: 25px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #7C7C7C;
+  line-height: 1.5;
+}
+
+.download-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.download-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 20px;
+  margin: 5px 10px;
+  border-radius: 10px;
+  background-color: #ff6f0f;
+  text-decoration: none;
+}
+
+.download-button span {
+  font-size: 15px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.download-button .store-logo {
+  height: 30px;
+  margin-right: 5px;
+}
+
+.hero-image-container {
+  height: 700px;
+  margin-left: 80px;
+}
+
+#hero-image {
+  display: block;
+  height: 100%;
+}
