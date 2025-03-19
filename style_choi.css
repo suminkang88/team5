@@ -1,8 +1,8 @@
+/* Reset and Global Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
   /* border: 3px solid black; */
 }
 
@@ -12,35 +12,36 @@
   src: url(https://d1unjqcospf8gs.cloudfront.net/assets/Gilroy-Bold-76f01426d347c0a032cb7669f76f457dfe153f125b58f0ab76a71693796c6918.woff);
 }
 
-#header {
-  width: 100%;
-  height: 70px;
-
+/* Header Styles */
+#main-header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 70px;
 }
 
-#header-left {
+#header-navigation {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right:  80px;
+  margin-right: 80px;
 }
 
-#carrotLogo {
+#logo-image {
   height: 35px;
 }
 
-.headerText {
+.nav-link {
   color: #4D5159;
   font-size: 18px;
   font-weight: 700;
   margin-left: 40px;
+  text-decoration: none;
 }
 
-#header-right {
+#header-actions {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -48,74 +49,70 @@
   margin-left: 60px;
 }
 
-#header-right input {
-  font-size: 15px;
-  font-weight: 300;
+#header-actions input {
   width: 300px;
   height: 35px;
   padding: 10px;
   margin-right: 10px;
-  border: 0px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 0;
+  border-radius: 5px;
   background-color: #F2F3F6;
 }
 
-#header-right a {
-  font-size: 12px;
-  font-weight: 700;
+#header-actions a {
   padding: 8px 10px;
   margin-right: 18px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #000000;
   border: 0.5px solid black;
   border-radius: 5px;
+  text-decoration: none;
 }
 
-.bigBox {
-  width: 100%;
-  height: 800px;
-  background-color: #fffae0;
-  
+/* Hero Section Styles */
+.hero-section {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-
-  
+  width: 100%;
+  height: 800px;
+  background-color: #fffae0;
 }
 
-.bigBox-left {
-  height: 600px;
+.hero-content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  height: 600px;
 }
 
-#community {
+#hero-title {
   font-size: 60px;
   font-weight: 800;
+  line-height: 1.1;
 }
 
-#neighbor {
-  font-size: 24px;
-  font-weight: 300;
+#hero-subtitle {
   padding: 25px 0;
-  color: #7C7C7C;
   font-size: 18px;
   font-weight: 500;
+  color: #7C7C7C;
+  line-height: 1.5;
 }
 
-.storeLogo {
-  height: 80px;
-}
-
-.box {
+.download-buttons {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
-.logoBox {
-  background-color: #ff6f0f;
+.download-button {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -123,25 +120,27 @@
   padding: 5px 20px;
   margin: 5px 10px;
   border-radius: 10px;
+  background-color: #ff6f0f;
+  text-decoration: none;
 }
 
-.logoBox span {
-  color: #FFFFFF;
+.download-button span {
   font-size: 15px;
   font-weight: 700;
+  color: #FFFFFF;
 }
 
-.storeLogo {
+.download-button .store-logo {
   height: 30px;
-  margin: 5px;
+  margin-right: 5px;
 }
 
-.bigBox-right {
+.hero-image-container {
   height: 700px;
   margin-left: 80px;
 }
 
-#mascot {
-  height: 700px;
-
+#hero-image {
+  display: block;
+  height: 100%;
 }
