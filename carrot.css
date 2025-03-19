@@ -1,3 +1,5 @@
+/*body2*/
+
 @font-face {
   font-family: "Gilroy-Bold";
   font-display: swap;
@@ -23,6 +25,213 @@ body {
   position: relative;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+}
+
+.home_main_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_image {
+  width: 655px;
+  height: 750px;
+}
+  
+/* 알바 */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_arbeit {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.main_arbeit_img {
+  width: 655px;
+  height: 750px;
+}
+
+.m_arbeit_start {
+  color: #ff6f0f;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.m_arbeit_title {
+  font-size: 40px;
+  line-height: 55px;
+  margin: 10px 0px;
+}
+
+.m_arbeit_comment {
+  color: #7c7c7c;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.m_arbeit_buttons {
+  margin-top: 30px;
+}
+
+.m_arbeit_button {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #e9ecef;
+  border-radius: 6px;
+  padding: 12px;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* 동네업체 */
+
+.main_business {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.main_business_img {
+  width: 655px;
+  height: 750px;
+}
+
+
+.service_title {
+  color: #ff6f0f;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+}
+.m_business_start {
+  color: #ff6f0f;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+  
+}
+
+
+.main_title {
+  font-size: 40px;
+  line-height: 55px;
+  margin: 10px 0px;
+}
+
+.m_business_title {
+
+  font-size: 40px;
+  line-height: 55px;
+  margin: 10px 0px;
+}
+
+
+.service_comment {
+   color: #7c7c7c;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.m_business_comment {
+  color: #7c7c7c;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+ 
+
+
+.main_buttons {
+  margin-top: 30px;
+}
+
+.main_button {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #e9ecef;
+  border-radius: 6px;
+  padding: 12px;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.m_business_buttons {
+  margin-top: 30px;
+}
+
+.m_business_button {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #e9ecef;
+  border-radius: 6px;
+  padding: 12px;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+.main_button:hover {
+  background-color: gainsboro;
+}
+
+.main_reverse {
+  display:flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  justify-contents: center;
+}
+
+.main_story_list {
+  margin-top: 50px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.main_story_list_item {
+  margin-right: 5px;
+  margin-left: 0px;
+  width: 140px;
+}
+
+ul li {
+  margin: 5px;
+}
+
+.story_list_image {
+  width: 55px;
+}
+
+.story_title {
+  margin: 12px 0px 5px 0px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.story_comment {
+  font-weight: 400;
+  font-size: 13px;
+  color: #7c7c7c;
+  line-height: 17px;
 }
 
 /*footer*/
@@ -166,3 +375,4 @@ body {
   text-decoration: none;
   margin-right: 1.5em;
 }
+
