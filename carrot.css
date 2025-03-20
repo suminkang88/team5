@@ -7,9 +7,17 @@
 }
 
 @font-face {
-  font-family: "Gilroy-Bold", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Gilroy-Bold", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
   font-display: swap;
   src: url(https://d1unjqcospf8gs.cloudfront.net/assets/Gilroy-Bold-76f01426d347c0a032cb7669f76f457dfe153f125b58f0ab76a71693796c6918.woff);
+}
+
+/* 위로 올렸습니다 */
+body {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Header Styles */
@@ -34,7 +42,7 @@
 }
 
 .nav-link {
-  color: #4D5159;
+  color: #4d5159;
   font-size: 18px;
   font-weight: 700;
   margin-left: 40px;
@@ -58,7 +66,7 @@
   font-weight: 400;
   border: 0;
   border-radius: 5px;
-  background-color: #F2F3F6;
+  background-color: #f2f3f6;
 }
 
 #header-actions a {
@@ -92,7 +100,7 @@
 }
 
 #hero-title {
-  font-size: 60px;
+  font-size: 40px; /*수민님 폰트 사이즈와 통일*/
   font-weight: 800;
   line-height: 1.1;
 }
@@ -101,7 +109,7 @@
   padding: 25px 0;
   font-size: 18px;
   font-weight: 500;
-  color: #7C7C7C;
+  color: #7c7c7c;
   line-height: 1.5;
 }
 
@@ -127,7 +135,7 @@
 .download-button span {
   font-size: 15px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .download-button .store-logo {
@@ -144,15 +152,15 @@
   display: block;
   height: 100%;
 }
-/*body2*/
 
-html {
+/*body2*/
+.main_section {
+  /*기존 html{}에 있던 것*/
   min-width: 980px;
   height: 100%;
-  font-size: 62.5%;
-}
+  font-size: 40px; /*수민님 폰트 사이즈와 통일*/
 
-body {
+  /*기존 body{}에 있던 것*/
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -174,12 +182,84 @@ body {
   height: 750px;
 }
 
-/* 알바 */
-body {
-  display: flex;
-  flex-direction: column;
+.main_buttons {
+  margin-top: 30px;
 }
 
+.main_button {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #e9ecef;
+  border-radius: 6px;
+  padding: 12px;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.m_business_buttons {
+  margin-top: 30px;
+}
+
+.m_business_button {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  background-color: #e9ecef;
+  border-radius: 6px;
+  padding: 12px;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.main_button:hover {
+  background-color: gainsboro;
+}
+
+.main_reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  justify-contents: center;
+}
+
+.main_story_list {
+  margin-top: 50px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.main_story_list_item {
+  margin-right: 5px;
+  margin-left: 0px;
+  width: 140px;
+  margin: 5px; /*ul li{}에 있던 것*/
+}
+
+.story_list_image {
+  width: 55px;
+}
+
+.story_title {
+  margin: 12px 0px 5px 0px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.story_comment {
+  font-weight: 400;
+  font-size: 13px;
+  color: #7c7c7c;
+  line-height: 17px;
+}
+
+/* 알바 */
 .main_arbeit {
   width: 100%;
   justify-content: center;
@@ -279,86 +359,6 @@ body {
   font-size: 20px;
   line-height: 30px;
   margin: 0;
-}
-
-.main_buttons {
-  margin-top: 30px;
-}
-
-.main_button {
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 700;
-  background-color: #e9ecef;
-  border-radius: 6px;
-  padding: 12px;
-  display: inline-block;
-  margin-right: 10px;
-  cursor: pointer;
-}
-
-.m_business_buttons {
-  margin-top: 30px;
-}
-
-.m_business_button {
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 700;
-  background-color: #e9ecef;
-  border-radius: 6px;
-  padding: 12px;
-  display: inline-block;
-  margin-right: 10px;
-  cursor: pointer;
-}
-
-.main_button:hover {
-  background-color: gainsboro;
-}
-
-.main_reverse {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
-  justify-contents: center;
-}
-
-.main_story_list {
-  margin-top: 50px;
-  display: flex;
-  list-style-type: none;
-  justify-content: space-between;
-  padding: 0px;
-}
-
-.main_story_list_item {
-  margin-right: 5px;
-  margin-left: 0px;
-  width: 140px;
-}
-
-ul li {
-  margin: 5px;
-}
-
-.story_list_image {
-  width: 55px;
-}
-
-.story_title {
-  margin: 12px 0px 5px 0px;
-  font-size: 14px;
-  line-height: 1.5;
-  font-weight: bold;
-}
-
-.story_comment {
-  font-weight: 400;
-  font-size: 13px;
-  color: #7c7c7c;
-  line-height: 17px;
 }
 
 /*footer*/
@@ -802,6 +802,7 @@ ul li {
 }
 
 .footer_download_icon {
+  box-sizing: content-box;
   width: 1.3em;
   height: 1.3em;
   padding-right: 0.5em;
